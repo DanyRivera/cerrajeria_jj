@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.horarios {
+    background-image: url(/img/llaves.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+@media (min-width: 768px) {
+    .efecto {
+        background-image: linear-gradient(to right, rgb(141, 141, 141) 50%, transparent 50%);
+        background-size: 200%;
+        background-repeat: no-repeat;
+        background-position: right;
+        transition: all .3s ease;
+    }
+
+    .efecto:hover {
+        background-position: left;
+        color: #757575;
+        font-weight: bold;
+        /* border-color:#fff; */
+    }
+
+    .efecto:hover {
+        background-position: left;
+        color: #fff;
+        font-weight: bold;
+        /* border-color:#fff; */
+    }
+}
+
+.mostrar {
+    animation-name: mostrarMenu;
+    animation-duration: .3s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    display: block;
+}
+
+@keyframes mostrarMenu {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.ocultar {
+    transition: all .3s;
+    transform: translate(-100%);
+}
+
+.mostrar-up {
+    animation-name: mostrarUp;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mostrarUp {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.ocultar-up {
+    transition: all .5s;
+    opacity: 0;
+}
