@@ -34,6 +34,7 @@ const Header = () => {
                         <button
                             className="md:hidden"
                             onClick={() => setMostrar(true)}
+                            aria-label="abrir-menu"
                         >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
@@ -42,7 +43,7 @@ const Header = () => {
                         <p className="text-xl text-center w-52 md:w-1/2 md:text-2xl">Todo sobre cerrajería con nosotros</p>
                     </div>
                     <div className="flex justify-center">
-                        <img className="w-1/3" src="/img/llaves.png" alt="" />
+                        <img className="w-1/3 h-auto" src="/img/header.webp" alt="" />
                     </div>
                 </div>
                 <nav className="hidden md:flex flex-col justify-around items-center">
