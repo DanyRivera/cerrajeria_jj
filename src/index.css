@@ -8,12 +8,19 @@ body {
 
 .horarios {
     background-image: url(/img/horarios.webp);
-    background-position: center center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-size: cover;
     height: 60vh;
     width: 100%;
-    background-attachment: fixed;
+    
+}
+
+@media (min-width: 768px) {
+    .horarios {
+        background-attachment: fixed;
+        background-position: center center;
+    }
 }
 
 @media (min-width: 768px) {

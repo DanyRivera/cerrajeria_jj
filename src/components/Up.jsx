@@ -23,7 +23,7 @@ const Up = () => {
     return (
         <button
             aria-label="menu"
-            className={`${mostrar ? 'mostrar-up' : 'ocultar-up'} fixed bottom-2 right-2 md:bottom-10 md:right-6 outline-none`}
+            className={`${mostrar ? 'mostrar-up' : 'ocultar-up'} fixed bottom-2 right-2 md:bottom-10 md:right-6 outline-none z-20`}
             onClick={() => scroll.scrollToTop()}
         >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 bg-gray-300 text-gray-500 p-3 rounded-full shadow-2xl">

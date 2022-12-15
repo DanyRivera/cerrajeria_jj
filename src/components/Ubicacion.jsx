@@ -28,7 +28,7 @@ const Ubicacion = () => {
                         <p>
                             Hospedajes "Pomme"{' '}
                             <a
-                                href="https://goo.gl/maps/a4tNoaruXmfBxvfT9"
+                                href="https://goo.gl/maps/i79jed82WidWk2Q57"
                                 target="_blank"
                                 rel="noreferrer"
                             >Ver En Maps</a>
