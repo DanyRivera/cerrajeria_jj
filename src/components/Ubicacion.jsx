@@ -26,7 +26,7 @@ const Ubicacion = () => {
                 <Marker icon={markerIcon} position={[19.00593, -98.19812]}>
                     <Popup >
                         <p>
-                            Hospedajes "Pomme"{' '}
+                            Cerrajería J & J{' '}
                             <a
                                 href="https://goo.gl/maps/i79jed82WidWk2Q57"
                                 target="_blank"
