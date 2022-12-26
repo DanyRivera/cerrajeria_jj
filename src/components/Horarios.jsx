@@ -3,13 +3,13 @@ import React from 'react'
 const Horarios = () => {
 
     const horarios = [
-        { dia: 'Lunes', hora: '8:00 - 18:00' },
-        { dia: 'Martes', hora: '8:00 - 18:00' },
-        { dia: 'Miércoles', hora: '8:00 - 18:00' },
-        { dia: 'Jueves', hora: '8:00 - 18:00' },
-        { dia: 'Viernes', hora: '8:00 - 18:00' },
-        { dia: 'Sábado', hora: '8:00 - 18:00' },
-        { dia: 'Domingo', hora: '8:00 - 18:00' },
+        { dia: 'Lunes', hora: '8:30 - 20:00' },
+        { dia: 'Martes', hora: '8:30 - 20:00' },
+        { dia: 'Miércoles', hora: '8:30 - 20:00' },
+        { dia: 'Jueves', hora: '8:30 - 20:00' },
+        { dia: 'Viernes', hora: '8:30 - 20:00' },
+        { dia: 'Sábado', hora: '8:30 - 20:00' },
+        { dia: 'Domingo', hora: '9:00 - 18:00' },
     ]
 
     return (

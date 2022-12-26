@@ -3,12 +3,12 @@ import React from 'react'
 const Servicios = () => {
 
     const servicios = [
-        'Programación de Llaves',
-        'Programación de Llaves',
-        'Programación de Llaves',
-        'Programación de Llaves',
-        'Programación de Llaves',
-        'Programación de Llaves'
+        'Duplicados',
+        'Programación de Llaves y Chips',
+        'Venta y Colocación de Pilas',
+        'Programación de controles para carros',
+        'Cerrajería Automotriz',
+        'Apertura de Chapas'
     ]
 
     return (
